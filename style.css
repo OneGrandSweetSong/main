@@ -1,0 +1,33 @@
+nav, footer {
+    background-color: #000;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+nav li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0 5px;
+  border-right: solid 1px white;
+  border-left: solid 1px white;
+}
+
+main {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+#coming-soon {
+  font-size: 10em;
+}
